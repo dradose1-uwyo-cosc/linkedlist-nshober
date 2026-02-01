@@ -1,6 +1,6 @@
-//[Your Name Here]
+//Nina Shober
 //COSC 3750
-//[Date Here]
+//31 January 2026
 //
 /*
 	Don't forget to run your go mod init command in your terminal
@@ -14,14 +14,14 @@ package main
 
 import (
 	"fmt"
-	/*"hw01/ds" */ //this needs to be changes to your module name and uncommented
+	"linkedlist-nshober/ds"
 )
 
 func main() {
 	fmt.Println("Only here so the import doesn't leave an error")
 
-	//linkedlist := &ds.LinkedList{}
-	//linkedlist.InsertAt(0, "first")
+	linkedlist := &ds.LinkedList{}
+	linkedlist.InsertAt(0, "first")
 	//linkedlist.Insert("first")
 	//linkedlist.Insert("first")
 	//linkedlist.Insert("second")
