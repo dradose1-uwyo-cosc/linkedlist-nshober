@@ -32,7 +32,7 @@ func (s *Stack) Pop() (string, bool) { // remove the head
 func (s *Stack) PrintStack() { //print the stack
 	curr := s.list.Head
 	for curr != nil {
-		fmt.Print(curr.data, "-> ")
+		fmt.Print(curr.data, " -> ")
 		curr = curr.Next
 	}
 	fmt.Println()

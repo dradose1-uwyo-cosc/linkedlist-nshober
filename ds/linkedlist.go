@@ -142,7 +142,7 @@ func (l *LinkedList) Reverse() { //reverse the list
 func (l *LinkedList) PrintList() { //print the list
 	curr := l.Head
 	for curr != nil {
-		fmt.Print(curr.data, "-> ")
+		fmt.Print(curr.data, " -> ")
 		curr = curr.Next
 	}
 	fmt.Println()

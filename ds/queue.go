@@ -36,7 +36,7 @@ func (q *Queue) Pop() (string, error) { // remove the head
 func (q *Queue) PrintQueue() { //print the queue
 	curr := q.list.Head
 	for curr != nil {
-		fmt.Print(curr.data, "-> ")
+		fmt.Print(curr.data, " -> ")
 		curr = curr.Next
 	}
 	fmt.Println()
