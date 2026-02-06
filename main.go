@@ -18,8 +18,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Only here so the import doesn't leave an error")
-
 	linkedlist := &ds.LinkedList{}
 	err := linkedlist.RemoveAt(3)
 	if err != nil {
